@@ -1,84 +1,68 @@
 body {
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-    background: #f7f9fc;
-    color: #333;
-    line-height: 1.6;
-    padding: 1px;
+	margin: 0;
+	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+	background: #f7f9fc
 }
 
-header {
-    background: linear-gradient(135deg, #0077ff, #00bcd4);
-    color: white;
-    padding: 1rem 1rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+.navbar{
+	background: linear-gradient(135deg, #0077ff, #00bcd4);
+	margin: 0;
+	padding: 20px 30px;
+}
+ 
+.logo {
+	font-size: 14pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+ 
+.container-menu {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+ 
+.tombol{
+	display: none;
+	color: white;
+	font-size: 14pt;			
+}
+ 
+.tombol:hover{
+	cursor: pointer;
+}
+ 
+.menu{
+	margin: 0;
+	display: flex;
+	list-style: none;
+	padding: 0;			
+}
+ 
+.menu li{
+	padding-left: 0;
+	margin-right: 10px;
+}
+ 
+.menu li a {
+	padding: 10px;
+    font-weight: 495;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
 }
 
-header h2 {
-    text-align: center;
-    height: 20px;
-}
-
-nav {
-    height: 62px;
-    border-radius: 10px;
-    position: relative;
-    top: 17px;
-}
-
-nav ul {
-    display: flex;
-    padding: 5px;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0;
-    list-style: none;
-    padding: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: 600;
-    position: relative;
-    padding: 14px;
-}
-
-nav a.active::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 3px;
-    bottom: 5px;
-    left: 50%;
-    border-radius: 40px;
-    background-color: #f6ff00;
-    transform: translateX(-50%);
-}
-
-nav a:hover {
-    color: #f6ff00;
-}
-
-nav a.active {
-    color: #f6ff00;
-}
-
-nav a.active::after {
-    width: 80% !important;
+.menu a:hover {
+    color: #ffea00;
 }
 
 .tentangsaya {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
 hr {
@@ -92,11 +76,8 @@ hr {
 .Keterangan {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 19px;
 }
 
 .Keterangan img {
@@ -129,10 +110,8 @@ hr {
 .pendidikan {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    margin-bottom: 2rem;
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
 .pendidikan ul {
@@ -157,11 +136,9 @@ hr {
 .Keahlian {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
 .Keahlian h2 {
@@ -231,11 +208,9 @@ hr {
 .pengalaman {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 2rem;
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
 .pengalaman h2 {
@@ -263,10 +238,7 @@ hr {
     gap: 8px;
     background: white;
     padding: 1.5rem;
-    border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 2rem;
-    margin-top: 19px;
 }
 
 .biodata-gambar {
@@ -324,11 +296,8 @@ hr {
 .karya {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .karya h2 {
@@ -391,11 +360,8 @@ hr {
 .Foto-Kuliah {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .Foto-Kuliah h2 {
@@ -420,11 +386,9 @@ hr {
 .Foto-SMK {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .Foto-SMK h2 {
@@ -452,8 +416,7 @@ hr {
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .Foto-Pengalaman h2 {
@@ -479,11 +442,9 @@ hr {
 .Audio {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .Audio h2 {
@@ -547,20 +508,28 @@ hr {
 .Video {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .Video h2 {
     margin-top: 2px;
 }
 
+.dokumen {
+    background: white;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    margin-top: 10px;
+}
+
 .Media-Sosial {
     background: linear-gradient(135deg, #0077ff, #00bcd4);
     padding: 2rem;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     margin-bottom: 20px;
@@ -601,13 +570,12 @@ hr {
 .tampilankontak {
     background: white;
     padding: 2rem;
-    border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    margin-bottom: 20px;
     margin-top: 20px;
 }
 
 .tampilankontak h2 {
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -678,10 +646,8 @@ footer {
     text-align: center;
     background: linear-gradient(135deg, #0077ff, #00bcd4);
     color: white;
-    padding: 1rem;
-    border-radius: 10px;
+    padding: 20px 30px;
     font-size: 0.9rem;
-    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .sosial img {
@@ -754,35 +720,33 @@ footer {
     transition: 0.2s;
 }
 
-@media (max-width: 700px) {
-    body {
-        padding: 1px;
-    }
-
-    header {
-        padding: 1rem 0.5rem;
-    }
-
-    header h2 {
-        font-size: 18px;
-    }
-
-    nav {
-        height: 55px;
-    }
-
-    nav li {
-        margin: -16px;
-    }
-
-    nav a {
-        font-size: 14px;
-        font-weight: 600;
-    }
-
-    nav a.active::after {
-        display: none;
-    }
+@media (max-width: 762px) {
+    .menu {
+		display: none;
+	}
+ 
+	.menu.aktif{
+		display:inline-block;
+		position: absolute;
+		top: 64px;
+	    background: white;
+		padding: 10px 20px;
+		right: 0;
+		left: 0;
+        text-align: center;
+        border-bottom: 2px solid #ddd;
+	}
+ 
+	.menu.aktif li a{
+        font-weight: 500;
+        color: #000000;
+		padding: 10px;
+		display: inline-block !important;
+	}
+ 
+	.tombol {
+		display: block;
+	}
 
     .Keterangan h2 {
         font-size: 20px;
@@ -853,7 +817,7 @@ footer {
 
     .biodata-info th,
     .biodata-info td {
-        font-size: 12px;
+        font-size: 13px;
         text-align: left;
     }
 
