@@ -772,7 +772,7 @@ footer {
     }
 
     nav li {
-        margin: -14px;
+        margin: -16px;
     }
 
     nav a {
@@ -966,4 +966,5 @@ footer {
         width: 18px;
         height: 18px;
     }
+
 }
