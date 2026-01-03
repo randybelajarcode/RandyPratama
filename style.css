@@ -1,56 +1,56 @@
 body {
-	margin: 0;
-	font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-	background: #f7f9fc
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: #f7f9fc
 }
 
-.navbar{
-	background: linear-gradient(135deg, #0077ff, #00bcd4);
-	margin: 0;
-	padding: 20px 30px;
+.navbar {
+    background: linear-gradient(135deg, #0077ff, #00bcd4);
+    margin: 0;
+    padding: 20px 30px;
 }
- 
+
 .logo {
-	font-size: 14pt;
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
 }
- 
+
 .container-menu {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
- 
-.tombol{
-	display: none;
-	color: white;
-	font-size: 14pt;			
+
+.tombol {
+    display: none;
+    color: white;
+    font-size: 14pt;
 }
- 
-.tombol:hover{
-	cursor: pointer;
+
+.tombol:hover {
+    cursor: pointer;
 }
- 
-.menu{
-	margin: 0;
-	display: flex;
-	list-style: none;
-	padding: 0;			
+
+.menu {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
 }
- 
-.menu li{
-	padding-left: 0;
-	margin-right: 10px;
+
+.menu li {
+    padding-left: 0;
+    margin-right: 10px;
 }
- 
+
 .menu li a {
-	padding: 10px;
+    padding: 10px;
     font-weight: 495;
-	color: white;
-	text-decoration: none;
-	display: inline-block;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .menu a:hover {
@@ -298,6 +298,8 @@ hr {
     padding: 2rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .karya h2 {
@@ -720,33 +722,33 @@ footer {
     transition: 0.2s;
 }
 
-@media (max-width: 762px) {
+@media (max-width: 700px) {
     .menu {
-		display: none;
-	}
- 
-	.menu.aktif{
-		display:inline-block;
-		position: absolute;
-		top: 64px;
-	    background: white;
-		padding: 10px 20px;
-		right: 0;
-		left: 0;
+        display: none;
+    }
+
+    .menu.aktif {
+        display: inline-block;
+        position: absolute;
+        top: 64px;
+        background: white;
+        padding: 10px 20px;
+        right: 0;
+        left: 0;
         text-align: center;
-        border-bottom: 2px solid #ddd;
-	}
- 
-	.menu.aktif li a{
+        border-bottom: 4px solid #022c99;
+    }
+
+    .menu.aktif li a {
         font-weight: 500;
         color: #000000;
-		padding: 10px;
-		display: inline-block !important;
-	}
- 
-	.tombol {
-		display: block;
-	}
+        padding: 10px;
+        display: inline-block !important;
+    }
+
+    .tombol {
+        display: block;
+    }
 
     .Keterangan h2 {
         font-size: 20px;
@@ -794,7 +796,7 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-        padding: 1rem 0.9rem;
+        padding: 1rem 1rem;
     }
 
     .biodata-gambar img {
@@ -803,22 +805,20 @@ footer {
     }
 
     .biodata-info {
-        padding: 1rem 0.5rem;
-        font-size: 15px;
+        padding: 1px;
+        font-size: 14px;
         width: 100%;
-        min-width: 0;
         box-sizing: border-box;
     }
 
     .biodata-info td {
-        padding: 5px;
-        font-size: 14px;
+        padding: 3px;
     }
 
     .biodata-info th,
     .biodata-info td {
         font-size: 13px;
-        text-align: left;
+        border-bottom: none;
     }
 
     .Keahlian p {
@@ -929,6 +929,11 @@ footer {
 
     .aturtengah a {
         font-size: 13px;
+    }
+
+    .Media-Sosial {
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     .footer h2 {
