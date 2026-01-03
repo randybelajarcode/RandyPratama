@@ -1,3 +1,11 @@
+// deklarasi tombol dan menu
+const tombol = document.querySelector('.tombol');
+const menu = document.querySelector('.menu');
+
+tombol.addEventListener('click', () => {
+    menu.classList.toggle('aktif');
+});
+
 // Lightbox sederhana: klik gambar untuk buka, klik X / luar / Esc untuk tutup
 (function () {
     const lightbox = document.getElementById('lightbox');
