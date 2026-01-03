@@ -296,11 +296,9 @@ hr {
 
 .karya {
     background: white;
-    padding: 2rem;
+    padding: 4rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 
 .karya h2 {
@@ -948,3 +946,4 @@ footer {
         height: 18px;
     }
 }
+
